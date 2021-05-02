@@ -1,0 +1,65 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+
+*{
+    margin:0;
+    }
+
+
+
+body{
+    background-image:linear-gradient(to right, #ec9f05, #ff4e00
+    );
+}
+
+/* Card Style*/
+
+.center{
+    /*
+    
+    width: 50%;
+    padding: 10px;
+    margin-left: auto;
+  margin-right: auto;
+  
+    
+    */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-image: linear-gradient(to right,#ee9ca7, #ffdde1);
+    margin-top:30vh;
+    height: 300px;
+    width: 600px;
+    border-radius: 50px;
+    box-shadow: 5px 10px 8px black;
+}
+
+/* Text Decoration */
+
+h1{
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size:72px;
+}
+
+/*Font Awesomes */
+
+.font-awesome-container{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top:13%;
+    font-size: 50px;
+
+}
+
+a {
+    text-decoration: none;
+}
